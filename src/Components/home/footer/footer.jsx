@@ -1,6 +1,6 @@
 import React from 'react';
 import { FaLinkedin, FaInstagram, FaTwitter,FaYoutube } from 'react-icons/fa'; // Added Twitter for the example
-import './Footer.css';
+import './footer.css';
 
 
 
