@@ -1,0 +1,106 @@
+
+.seo-hero-container {
+  background: linear-gradient(135deg, #0F172A, #0EA5E9);
+  color: #ffffff;
+  min-height: 90vh;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+  gap: 2rem;
+  padding: 2rem;
+  padding-top: 6rem;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+
+.hero-content {
+  max-width: 800px; 
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  text-align: left;
+  gap: 1.5rem; 
+}
+
+.hero-content h1 {
+  font-size: clamp(2.5rem, 6vw, 4.5rem);
+  font-weight: 800;
+  line-height: 1.2;
+  margin: 0;
+  background: linear-gradient(90deg, #ffd700, #3a3a32);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.hero-content h2 {
+  font-size: clamp(1rem, 2.5vw, 1.5rem);
+  font-weight: 400;
+  color: #c0c8e7; 
+  line-height: 1.6;
+  margin: 0;
+  max-width: 600px;
+}
+
+
+.hero-image-container {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.hero-image-container img {
+  width: 200%;
+  max-width: 600px;
+  height: 550px;
+  object-fit: cover;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+  border-radius: 100px 0 0 100px;
+  margin-right: -2rem; 
+}
+
+
+.hero-cta-button {
+  background-color: #557aff;
+  color: #ffffff;
+  font-size: 1.1rem;
+  font-weight: 600;
+  padding: 14px 32px;
+  border: none;
+  border-radius: 50px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 15px rgba(85, 122, 255, 0.3);
+}
+
+.hero-cta-button:hover {
+  background-color: #000000;
+  color: #ffffff;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.5);
+  transform: scale(1.05);
+}
+
+@media (max-width: 900px) {
+  .seo-hero-container {
+    grid-template-columns: 1fr;
+    padding: 8rem 1.5rem 2rem 1.5rem;
+  }
+
+  .hero-content {
+    align-items: center;
+    text-align: center;
+  }
+
+  .hero-image-container {
+    order: 0;
+    justify-content: center;
+  }
+
+  .hero-image-container img {
+    width: 100%;
+    max-width: 400px;
+    height: auto;
+    margin-right: 0; 
+    border-radius: 30px;
+  }
+}
