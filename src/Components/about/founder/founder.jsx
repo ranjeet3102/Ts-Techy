@@ -1,6 +1,6 @@
 import React from 'react';
 import founderImage from '../../../assets/selven.webp';
-import './Founder.css'; 
+import './founder.css'; 
 
 const Founder = () => {
   return (

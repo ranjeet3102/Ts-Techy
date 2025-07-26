@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import Galaxy from '../../design/galaxy.jsx';
-import './Contact.css'; 
+import './contact.css'; 
 import { Mail, User, MessageSquare, Phone, MapPin, ArrowRight, CheckCircle } from 'lucide-react';
 
 const ContactPage = () => {
