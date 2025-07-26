@@ -1,5 +1,5 @@
 import React from 'react';
-import './Services.css'; 
+import './services.css'; 
 import { Search, FileCog, BarChart3 } from 'lucide-react';
 
 const ServicesPage = () => {
