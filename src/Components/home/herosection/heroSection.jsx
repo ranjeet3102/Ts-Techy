@@ -1,5 +1,5 @@
 import React from 'react';
-import './HeroSection.css'; 
+import './heroSection.css'; 
 import laptopImage from '../../../assets/lap.webp';
 import ShinyText from '../../../design/shinytext.jsx'; 
 const HeroSection = () => {
