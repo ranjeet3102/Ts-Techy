@@ -1,5 +1,5 @@
 import React from 'react';
-import './Story.css';
+import './story.css';
 import { ShieldCheck, Target, TrendingUp } from 'lucide-react'; 
 const Story = () => {
   return (
